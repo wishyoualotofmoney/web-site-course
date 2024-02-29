@@ -2,14 +2,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
 h1 {
     color: blue;
 }
-
-
 
 .bold {
     font-weight: bold;
@@ -35,4 +30,13 @@ a {
 a:hover {
     color: green;
     text-decoration: underline;
+}
+
+.elements {
+    background-color: pink;
+    width: 400px;
+    height: 200px;
+    margin: 30px;
+    padding: 15px;
+    border: 1px solid black;
 }
