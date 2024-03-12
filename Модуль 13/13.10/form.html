@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>13.10 Элементы форм</title>
     <link rel="stylesheet" href="style_form.css">
 </head>
+
 <body>
-    
+    <form class="reg_form">
+        <h1>Регистрация на конференцию</h1>
+
+        <div>
+            <label for="name">Фамилия, имя, отчество:</label>
+            <input type="text" id="name" name="name" class="reg_form__input">
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="name" class="reg_form__input">
+        </div>
+
+        <div>
+            <label>Пол:</label>
+            <div>
+                <label><input type="radio" name="sex" value="male"> мужской</label>
+                <label><input type="radio" name="sex" value="female"> женский</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="">Предпочтительное время выступления:</label>
+            <div>
+                <label for=""><input type="checkbox" name="time_morning" value="1">утро</label>
+                <label for=""><input type="checkbox" name="time_afternoon" value="1">день</label>
+                <label for=""><input type="checkbox" name="time_evening" value="1">вечер</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="">Секция</label>
+            <select name="section" id="" class="reg_form__input">
+                <option value="frontend">Frontend</option>
+                <option value="backend">Backend</option>
+                <option value="management">Менеджемент</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Тема и тезисы выступления:</label>
+            <textarea name="info" class="reg_form__input"></textarea>
+        </div>
+
+        <div>
+            <label for="">Презентация:</label>
+            <input type="file" name="presentation">
+        </div>
+
+        <div>
+            <input type="reset" value="Сбросить">
+            <input type="submit" value="Отправить">
+        </div>
+
+
+
+
+
+        <!--
+Предпочтительное время выступления: утро, день и/или вечер (с возможностью выбора
+Выбор одной из трёх секций: frontend, backend или менеджемент
+Тема и тезисы выступления: текстовое поле
+Презентация (прикрепление файла) -->
+
+    </form>
 </body>
 </html>
