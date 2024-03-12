@@ -1,0 +1,10 @@
+.price_list {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.price_list td {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
