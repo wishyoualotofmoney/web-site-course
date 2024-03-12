@@ -3,8 +3,17 @@
     border-collapse: collapse;
 }
 
-.price_list td {
-    border: 1px solid grey;
+.price_list td, th {
+    border: 1px solid black;
     padding: 5px;
+}
+
+.price_list thead {
+    background-color: grey;
+}
+
+.price_list tfoot {
+    background-color: lightblue;
+    font-weight: bold;
 }
 
