@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-.reg_form > div {
+/* .reg_form > div {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -15,4 +15,4 @@
 
 .reg_form textarea {
     height: 150px;
-}
+} */
